@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Travel & Destination</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Explore the World</h2>
+            <p>Discover your next adventure.</p>
+        </section>
+        <section class="destinations">
+            <h2>Popular Destinations</h2>
+            <div class="destination" onclick="showDetails('Paris')">
+                <img src="https://via.placeholder.com/300" alt="Paris">
+                <h3>Paris</h3>
+                <p>The city of lights.</p>
+            </div>
+            <div class="destination" onclick="showDetails('New York')">
+                <img src="https://via.placeholder.com/300" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+            <div class="destination" onclick="showDetails('Tokyo')">
+                <img src="https://via.placeholder.com/300" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>The heart of Japan.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel & Destination</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
