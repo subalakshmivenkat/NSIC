@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    /* Ensure the image path is correct */
+    background-image: url('images/photo-1539635278303-d4002c07eae3.avif');
+    background-size: cover;
+    background-position: center;
+    color: rgb(10, 15, 41);
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    /* Make sure the footer stays at the bottom */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Optional improvement: Adding some padding to the footer */
+.footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
